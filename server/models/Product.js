@@ -17,16 +17,11 @@ const productSchema = new Schema({
   price: {
     type: Number,
     required: true,
-    min: 0.99
+    min: 0.01
   },
-  quantity: {
-    type: Number,
-    min: 0,
-    default: 0
-  },
-  category: {
+  brand: {
     type: Schema.Types.ObjectId,
-    ref: 'Category',
+    ref: 'Brand',
     required: true
   }
 });
