@@ -19,7 +19,7 @@ function BrandMenu() {
     if (brandData) {
       dispatch({
         type: UPDATE_BRANDS,
-        brands: brandData.brand,
+        brands: brandData.brands,
       });
       brandData.brands.forEach((brand) => {
         idbPromise('brands', 'put', brand);
