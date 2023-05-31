@@ -2,6 +2,9 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fasolid, facloud } from '@fortawesome/fontawesome-free-solid'
+
 function Nav() {
 
   function showNavigation() {
@@ -43,8 +46,10 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🤢🤮</span>
+          <span role="img" aria-label="shopping bag"></span>
+          <FontAwesomeIcon icon="fa-solid fa-cloud" fade style={{color: "#4cbd3d",}} />
           You Stink
+          <FontAwesomeIcon icon="fa-solid fa-skull" shake style={{color: "#b3b8c1",}} />
         </Link>
       </h1>
 
