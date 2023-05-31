@@ -10,6 +10,6 @@ const brandSchema = new Schema({
   }
 });
 
-const Category = mongoose.model('Brand', brandSchema);
+const Brand = mongoose.model('Brand', brandSchema);
 
-module.exports = Category;
+module.exports = Brand;
