@@ -27,19 +27,27 @@ body {
   font-size: 16px;
   color: ivory;
   text-align: center;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(33, 33, 33);
 }
 
-body img {
-  border: 5px solid slategray;
-  border-radius: 5px;
-  filter: grayscale(60%);
-
+.card img {
+  border: 10px double #21775F;
+  border-radius: 4px;
+  filter: sepia(60%);
 }
 
-body img:hover {
-  filter: grayscale(100%);
+header img {
+  border: transparent;
+}
+
+.card img:hover {
+  filter: sepia(100%);
   box-shadow: 2px 2px 5px;
+}
+
+header img:hover {
+  border: transparent;
+  box-shadow: 0px;
 }
 
 h1,
@@ -107,7 +115,7 @@ a {
 }
 
 .card a {
-  color: #FFFDD0;
+  color: #AB8B54;
   font-family: 'Poiret One', cursive;
 }
 
@@ -135,17 +143,14 @@ button {
   text-decoration: none;
   color: #FFFDD0;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 2px;
   outline: none;
   cursor: pointer;
-  border: 2px solid #FFFDD0;
+  border: 6px double #FFFDD0;
   margin: 5px;
   background-color: rgb(61, 61, 61);
 }
 
-.card button {
-
-}
 
 button:hover {
   opacity: .8;
