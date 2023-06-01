@@ -42,8 +42,8 @@ function BrandMenu() {
   };
 
   return (
-    <div>
-      <h2>Choose a Brand:</h2>
+    <div id="brand-menu">
+      <h2>Choose From Our Trusted Brands:</h2>
       {brands.map((item) => (
         <button
           key={item._id}
