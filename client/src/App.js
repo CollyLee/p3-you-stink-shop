@@ -45,10 +45,10 @@ function App() {
           <StoreProvider>
             <Nav />
             <Routes>
-              {<Route 
+              <Route 
                 path="/" 
                 element={<Home />} 
-              /> }
+              />
               <Route 
                 path="/login" 
                 element={<Login />} 
