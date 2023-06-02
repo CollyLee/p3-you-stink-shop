@@ -293,7 +293,10 @@ input:focus {
   }
   header h1 {
     padding-left: 0;
-    
+   
+  }
+  .col-8, .col-4 {
+    width:100%;
   }
   form {
     width: 100%;
