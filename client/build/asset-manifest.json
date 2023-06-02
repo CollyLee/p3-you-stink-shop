@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d44d3257.css",
+    "main.js": "/static/js/main.a8800426.js",
+    "static/media/OGDeoderant.jpg": "/static/media/OGDeoderant.96ec37ec90fa996c2762.jpg",
+    "static/media/NoseLogo.jpg": "/static/media/NoseLogo.e2e388103d986f46860d.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.7e729fecb0d7593e9557.gif",
+    "static/media/SweatAnthem.jpg": "/static/media/SweatAnthem.40ddb1e83fce5d8ea26f.jpg",
+    "index.html": "/index.html",
+    "main.d44d3257.css.map": "/static/css/main.d44d3257.css.map",
+    "main.a8800426.js.map": "/static/js/main.a8800426.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d44d3257.css",
+    "static/js/main.a8800426.js"
+  ]
+}
