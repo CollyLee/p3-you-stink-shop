@@ -7,7 +7,7 @@ import OGDeoderant from "../assets/OGDeoderant.jpg"
 const Home = () => {
   return (
     <div>
-    <div class="container">
+    <div className="container">
     <article>
       <h2>Why You Sweat!</h2>
       <p>Why do you sweat? As it turns out there are two types of sweat that your body can excrete given different stimuli. There is common sweat or eccrine from exercise and heat and there is stress sweat from extreme stress and comes from the roots of hair the sweat itself is odorless. The stink from sweat comes from bacteria on the skin or on cloths that come into contact with sweat. The most striking fact, is that the average person has between 2 and 5 million sweat glands that act as the coolant system to the body!<img src={SweatAnthem} alt="SweatyBoi" /></p>
