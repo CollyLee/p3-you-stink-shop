@@ -182,7 +182,12 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 100%;
+  display: block;
+  justify-content:center;
+  padding: 0 30%;
+  
+
 }
 
 input {
@@ -275,6 +280,14 @@ input:focus {
   header h1 {
     padding-left: 0;
     
+  }
+  form {
+    width: 100%;
+    display: block;
+    justify-content:center;
+    padding: 0 0%;
+    
+  
   }
 }
 
