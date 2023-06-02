@@ -65,7 +65,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
-          🛒
+          <img src="https://thumbs.dreamstime.com/b/vintage-retro-label-shopping-cart-icon-29121982.jpg"></img>
         </span>
       </div>
     );
