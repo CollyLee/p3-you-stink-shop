@@ -77,10 +77,10 @@ function App() {
           </StoreProvider>
         </div>
       </Router>
-      <footer class="bg-dark text-center text-white">
-      <div class="text-center p-3" style={{backgroundColor: "rgba(8, 6, 6, 0.2)"}}>
+      <footer className="bg-dark text-center text-white">
+      <div className="text-center p-3" style={{backgroundColor: "rgba(8, 6, 6, 0.2)"}}>
         Coded with ♥ by Dan Colin & Andrew 
-        <a class="text-white" href="https://github.com/dannydelts94/you-stink">GitHub</a>
+        <a className="text-white" href="https://github.com/dannydelts94/you-stink">GitHub</a>
       </div>
     </footer>
     </ApolloProvider>
