@@ -38,7 +38,7 @@ body {
 .card img {
   border: 10px double #21775F;
   border-radius: 4px;
-  filter: grayscale(50);
+  filter: grayscale(50%);
 }
 
 header img {
@@ -46,7 +46,7 @@ header img {
 }
 
 .card img:hover {
-  filter: sepia(100%);
+  filter: grayscale(75%);
   box-shadow: 2px 2px 5px;
 }
 
@@ -135,11 +135,22 @@ a:hover {
 header {
   background: var(--primary);
 }
+
 header a{
   color: var(--light);
 }
-header h1 {
-  padding-left: 34%;
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0px !important;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px 30px;
 }
 
 #brand-menu {
