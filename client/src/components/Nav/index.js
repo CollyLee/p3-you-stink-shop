@@ -43,17 +43,16 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
-      <nav>
-        {showNavigation()}
-      </nav>
-
+    <header className="px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag"></span>    
+          <span role="img" aria-label="shopping bag"></span>
           <img src={noseimage} alt="nose"></img>
         </Link>
       </h1>
+      <nav>
+        {showNavigation()}
+      </nav>
 
     </header>
   );

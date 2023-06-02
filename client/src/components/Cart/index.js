@@ -65,7 +65,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
-          <img src="https://thumbs.dreamstime.com/b/vintage-retro-label-shopping-cart-icon-29121982.jpg"></img>
+        🛒
         </span>
       </div>
     );
@@ -94,12 +94,9 @@ const Cart = () => {
           </div>
         </div>
       ) : (
-        <h3>
-          <span role="img" aria-label="shocked">
-            😱
-          </span>
-          You haven't added anything to your cart yet!
-        </h3>
+        <h5>
+          Nothing in your cart yet? What're you waiting for?
+        </h5>
       )}
     </div>
   );
