@@ -7,7 +7,7 @@ import OGDeoderant from "../assets/OGDeoderant.jpg"
 const Home = () => {
   return (
     <div>
-      <div class="container">
+      <div className="container">
 
         <article className="science">
           <h2>Why You Sweat!</h2>
